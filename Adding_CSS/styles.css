@@ -1,0 +1,18 @@
+/* This is element selector */
+/* h1 is selector */
+
+h1{
+    color: green;
+}
+
+/* * is universal selector
+it will applies to all */
+
+/* *{
+    color: green;
+} */
+
+#main {
+    color: red;
+}
+

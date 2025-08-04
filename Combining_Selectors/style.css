@@ -1,0 +1,45 @@
+/* Write your code here: */
+
+h1, h2 {
+    color:blueviolet
+}
+
+/* parent > child {
+    color: firebrick
+}
+
+Chid = Apply to direct child of left side */
+
+.box > p {
+    color: firebrick
+}
+
+/* Descendant = Apply to a descendent of left side
+
+selector selector {
+    color: blue
+} */
+
+.box li {
+    color: blue;
+}
+
+/* Chaining = Apply where ALL selectors are true
+
+selectorselector {
+    color: seagreen;
+} */
+
+li.done {
+    color: seagreen;
+}
+
+/* Combining Coombiners
+
+selector selectorselector {
+    font-size: 0.5rem;
+} */
+
+ul p.done {
+    font-size: 0.5rem;
+}
